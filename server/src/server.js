@@ -58,7 +58,7 @@ app.get('/user/:userid/feed', function(req, res) {
   var useridNumber = parseInt(userid, 10);
   if (fromUser === useridNumber) {
     // Send response.
-    res.send(getFeedData(userid));
+    //res.send(getFeedData(userid));
   } else {
     // 401: Unauthorized request.
     res.status(401).end();
