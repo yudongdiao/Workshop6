@@ -223,4 +223,5 @@ setInterval(function() {
     updated = false;
   }
 }, 200);
-//I read this section
+
+// Read
